@@ -236,11 +236,16 @@ h3 {
 }
 
 .contato {
- 
+ padding: 64px 8%;
+ background-color: var(--cor-borda-suave);
 }
 
 .contato-subtitulo {
-  
+  text-align: center;
+  color: var(--cor-texto-suave);
+  margin-top: -29px;
+  margin-bottom: 40px;
+  font-size: 15px;
 }
 
 .formulario-contato {
