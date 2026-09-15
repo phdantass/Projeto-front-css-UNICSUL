@@ -321,11 +321,12 @@ h3 {
 }
 
 .direitos {
-  
+  color: var(--cor-laranja);
+  font-size: 14px;
 }
 
 .direitos i {
-  
+  margin-right: 4px;
 }
 
 @media (max-width: 768px) {
