@@ -288,7 +288,14 @@ h3 {
 }
 
 .rodape {
-  
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-texto-claro);
+  padding: 40px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .rodape-item {
