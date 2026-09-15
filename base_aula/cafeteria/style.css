@@ -331,36 +331,40 @@ h3 {
 
 @media (max-width: 768px) {
   .cabecalho {
-    
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 5%;
   }
 
   .navegacao {
-    
+    gap: 19px;
   }
 
   .destaque {
-    
+    padding: 48px 5%;
   }
 
   .destaque h1 {
-    
+    font-size: 35%;
   }
 
   .favoritos,
   .sobre,
   .contato {
-  
+    padding: 48px 5%;
   }
 
   .card {
-   
+   flex-direction: column;
   }
 
   .card img {
-  
+    width: 100%;
+    height: 170px;
   }
 
   .rodape {
-    
+    flex-direction: column;
+    align-items:flex-start;
   }
 }
