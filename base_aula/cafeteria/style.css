@@ -299,19 +299,25 @@ h3 {
 }
 
 .rodape-item {
-  
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 14px;
 }
 
 .icone-rodape {
-  
+  font-size: 19px;
+  color: var(--cor-laranja);
 }
 
 .rodape-item a {
-  
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--cor-fundo-card);
 }
 
 .rodape-item a:hover {
-  
+  color: var(--cor-laranja-hover);
 }
 
 .direitos {
